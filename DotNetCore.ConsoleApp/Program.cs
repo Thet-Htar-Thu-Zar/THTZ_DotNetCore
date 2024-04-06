@@ -3,6 +3,7 @@
     static void Main(string[] args)
     {
         int i;
+        
         for (i = 0; i <= 10; i++)
         {
             if (i == 5)
