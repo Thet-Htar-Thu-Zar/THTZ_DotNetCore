@@ -34,11 +34,13 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            button1 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
@@ -46,7 +48,7 @@
             panel1.Controls.Add(textBox1);
             panel1.Location = new Point(-2, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(808, 457);
+            panel1.Size = new Size(821, 472);
             panel1.TabIndex = 0;
             // 
             // textBox1
@@ -91,6 +93,16 @@
             label3.TabIndex = 4;
             label3.Text = "label3";
             // 
+            // button1
+            // 
+            button1.Location = new Point(528, 308);
+            button1.Name = "button1";
+            button1.Size = new Size(110, 40);
+            button1.TabIndex = 5;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -112,5 +124,6 @@
         private Label label1;
         private TextBox textBox2;
         private TextBox textBox1;
+        private Button button1;
     }
 }

@@ -5,13 +5,9 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.ConsoleApp", "DotNetCore.ConsoleApp\DotNetCore.ConsoleApp.csproj", "{BB5ED3BF-D75F-4B19-81D1-5E24AE0FD221}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoginForm", "LoginForm", "{858FDD86-4E35-450C-A008-B1B164FC4F6C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginForm1", "LoginForm1\LoginForm1.csproj", "{FEFA13E8-CCA5-4422-94BC-23AAA1020892}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegisterForm", "RegisterForm", "{56CB1A2C-1BCE-4A61-BB10-2C722309B801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{C482702C-7CE4-495C-AB52-5D7D7812EBB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{4F55A1DA-3182-4197-A358-B9FB2CAFDC88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,21 +19,16 @@ Global
 		{BB5ED3BF-D75F-4B19-81D1-5E24AE0FD221}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB5ED3BF-D75F-4B19-81D1-5E24AE0FD221}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB5ED3BF-D75F-4B19-81D1-5E24AE0FD221}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEFA13E8-CCA5-4422-94BC-23AAA1020892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEFA13E8-CCA5-4422-94BC-23AAA1020892}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEFA13E8-CCA5-4422-94BC-23AAA1020892}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEFA13E8-CCA5-4422-94BC-23AAA1020892}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C482702C-7CE4-495C-AB52-5D7D7812EBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C482702C-7CE4-495C-AB52-5D7D7812EBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C482702C-7CE4-495C-AB52-5D7D7812EBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C482702C-7CE4-495C-AB52-5D7D7812EBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F55A1DA-3182-4197-A358-B9FB2CAFDC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F55A1DA-3182-4197-A358-B9FB2CAFDC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F55A1DA-3182-4197-A358-B9FB2CAFDC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F55A1DA-3182-4197-A358-B9FB2CAFDC88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{FEFA13E8-CCA5-4422-94BC-23AAA1020892} = {858FDD86-4E35-450C-A008-B1B164FC4F6C}
-		{C482702C-7CE4-495C-AB52-5D7D7812EBB6} = {56CB1A2C-1BCE-4A61-BB10-2C722309B801}
+		{4F55A1DA-3182-4197-A358-B9FB2CAFDC88} = {56CB1A2C-1BCE-4A61-BB10-2C722309B801}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C286DA3-B40F-4AF9-90D6-0D7811EAC1FF}
