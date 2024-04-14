@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.ConsoleApp", "Do
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoginForm", "LoginForm", "{858FDD86-4E35-450C-A008-B1B164FC4F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm1", "LoginForm1\LoginForm1.csproj", "{FEFA13E8-CCA5-4422-94BC-23AAA1020892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginForm1", "LoginForm1\LoginForm1.csproj", "{FEFA13E8-CCA5-4422-94BC-23AAA1020892}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rer", "Rer", "{3DAB46E7-D653-46A0-8459-D8BF7122F660}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegisterForm", "RegisterForm", "{56CB1A2C-1BCE-4A61-BB10-2C722309B801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{C482702C-7CE4-495C-AB52-5D7D7812EBB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +29,17 @@ Global
 		{FEFA13E8-CCA5-4422-94BC-23AAA1020892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEFA13E8-CCA5-4422-94BC-23AAA1020892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEFA13E8-CCA5-4422-94BC-23AAA1020892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C482702C-7CE4-495C-AB52-5D7D7812EBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C482702C-7CE4-495C-AB52-5D7D7812EBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C482702C-7CE4-495C-AB52-5D7D7812EBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C482702C-7CE4-495C-AB52-5D7D7812EBB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FEFA13E8-CCA5-4422-94BC-23AAA1020892} = {858FDD86-4E35-450C-A008-B1B164FC4F6C}
+		{C482702C-7CE4-495C-AB52-5D7D7812EBB6} = {56CB1A2C-1BCE-4A61-BB10-2C722309B801}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C286DA3-B40F-4AF9-90D6-0D7811EAC1FF}
